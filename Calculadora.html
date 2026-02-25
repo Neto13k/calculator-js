@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="geral">  <!-- Tabela calculadora -->
+    <h1>Calculadora</h1> 
+    <div id="visor"></div> <!-- onde os números digitados e os resultados aparecem-->
+    <table id="botoes">
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>/</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>*</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>C</td>
+            <td>=</td>
+            <td>+</td>
+        </tr>
+    </table>
+    </div>
+
+    <div id="historico1">
+    <h3>Histórico</h3>
+    <table id="TabelaHistorico">
+    <thead> <!--Header do historico -->
+        <tr> <!--Linha da tabela do historico e titulos do historico -->
+            <th>Hora</th>
+            <th>Expressão</th>
+            <th>Resultado</th>
+        </tr>
+    </thead>
+    <tbody id="Atualizarhistorico"></tbody>
+    </table>
+    </div>
+    
+    <script src="Calculadora.js"></script>
+</body>
+</html>
