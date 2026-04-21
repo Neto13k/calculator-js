@@ -77,10 +77,4 @@ calculator-js/
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 Feito com 💙 por [neto13k](https://github.com/neto13k)
